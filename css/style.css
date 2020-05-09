@@ -4,6 +4,9 @@
     text-align: center;
     
 }
+html {
+    background-color: red;
+}
 body {
     background-color: #202020;
 }
@@ -53,6 +56,6 @@ body {
         padding: 50px;
     }
     .gallery > img {
-        width: 380px;  
+        width: 90%;  
     }
 }
