@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+body {
+    background-color: #202020;
+}
+.header-img {
+    width: 100%;
+    height: 750px;  
+}
+.header {
+    position: relative;
+}
+.header-containt {
+    position: absolute;
+    top:35%;
+    left: 40%;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+}
+.header-containt > h1 {
+    font-size: 3rem;
+}
+.header-containt > p {
+    line-height: 5;
+    font-size: 1.5rem;
+}
+.para {
+    width: 50%;
+    margin: auto;
+    color: white;
+    line-height: 2;
+    padding: 150px 0 0px;
+    height: 250px;
+}
+.gallery > img {
+    width: 30%;
+    margin: 10px;
+}
+
+@media (max-width:500px){
+    .header-img {
+        height: 400px;
+    }
+    .header-containt {
+        left: 0;
+        right: 0;
+    }
+    .para {
+        padding: 50px;
+    }
+    .gallery > img {
+        width: 100%;
+       
+    }
+}
